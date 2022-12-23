@@ -1,0 +1,191 @@
+/** FONTS **/
+@import "/fonts/stylesheet.css";
+
+.wrapper {
+    background: #060216;
+}
+
+.navbar {
+    background: #060216;!important;
+}
+
+.navbar-brand {
+    color: #FAFAFA;
+    font-weight: 100;
+    margin-top: 30px!important;
+}
+
+.nav-link {
+    margin-top: 30px!important;
+    color: #FAFAFA !important;
+    font-weight: 100;
+    font-size: 20px!important;
+    text-decoration: none;
+}
+
+.body {
+    margin-top: 100px;
+}
+
+
+li {
+    list-style: none;
+}
+
+.right_nav {
+    display: block;
+    width: 100%;
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+.right_nav-second {
+    display: block;
+    width: 100%;
+    color: #FAFAFA;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.header_undername {
+    color: #ce133f;
+}
+
+.header-name>h1 {
+    font-size: 110px;
+    color: #FAFAFA;
+    font-weight: 100;
+}
+
+.header_undername>h1 {
+    font-size: 110px;
+    font-weight: 400;
+}
+
+.request-btn {
+    text-transform: uppercase;
+    font-size: 27px;
+    border: 3px solid #FAFAFA;
+    text-align: center;
+    border-radius: 30px ;
+    text-decoration: none;
+    background: none;
+    color: #FAFAFA;
+    padding: 10px 55px;
+    font-weight: 100;
+}
+
+.about_us {
+    margin-top: 100px;
+    color: #FAFAFA;
+    border: 3px solid #ce133f;
+    padding: 50px;
+    border-radius: 20px;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.order_us {
+    margin-top: 80px;
+    color: #FAFAFA;
+    font-weight: 400;
+}
+
+.order_point {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.red_point {
+    border: 10px solid #ce133f;;
+    border-radius: 50%;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-top: -10px;
+    background: #ce133f;
+}
+
+.card_service {
+    margin-top: 10px;
+}
+
+.card_order {
+    border: 2px solid #FAFAFA;
+    padding: 70px;
+    border-radius: 30px;
+    margin-top: 300px;
+    color: #FAFAFA;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.card_order_web {
+    border: 2px solid #FAFAFA;
+    padding: 70px;
+    border-radius: 30px;
+    color: #FAFAFA;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+
+.price {
+    font-size: 20px;
+}
+
+
+.service-header {
+    font-size: 200px;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    font-weight: 100 !important;
+}
+
+.red-letter{
+    color: #ce133f!important;
+    font-size: 200px;
+    font-weight: 400;
+}
+
+.order-btn {
+    text-transform: uppercase;
+    border: 1px solid #ce133f;
+    border-radius: 20px;
+    padding: 10px 15px;
+    text-align: center;
+    background: #ce133f;
+    color: #FAFAFA;
+    font-weight: 700;
+}
+
+.good_about>li {
+    color: #FAFAFA;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.form_feedback {
+    margin-top: 80px;
+    padding: 50px;
+    border: 2px solid #FAFAFA;
+    font-size: 22px;
+    color: #FAFAFA;
+    border-radius: 20px;
+    font-weight: 100;
+}
+
+.text {
+    color: #FAFAFA;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.footer {
+    margin-top: 150px;
+    font-size: 18px;
+    color: #FAFAFA;
+    font-weight: 100;
+}
