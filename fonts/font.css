@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Closer';
+    src: local('Closer Light Italic'), local('Closer-Light-Italic'),
+        url('Closer-LightItalic.woff2') format('woff2'),
+        url('Closer-LightItalic.woff') format('woff'),
+        url('Closer-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+  }

@@ -1,12 +1,25 @@
-/** FONTS **/
-@import "/fonts/stylesheet.css";
+@import "../fonts/font.css";
+
+@font-face {
+    font-family: 'Closer Light Italic';
+    src: local('Closer Light Italic'), local('Closer-Light-Italic'),
+    url('/fonts/Closer-LightItalic.woff2') format('woff2'),
+    url('/fonts/Closer-LightItalic.woff') format('woff'),
+    url('/fonts/Closer-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
 
 .wrapper {
-    background: #060216;
+    /* Created with https://www.css-gradient.com */
+    background: #CA0043;
+    background: -webkit-radial-gradient(at right, #CA0043, #130763);
+    background: -moz-radial-gradient(at right, #CA0043, #130763);
+    background: radial-gradient(140% 55% at right, #CA0043, #130763);
 }
 
 .navbar {
-    background: #060216;!important;
+    background: -webkit-radial-gradient(at right, #CA0043, #130763);
 }
 
 .navbar-brand {
@@ -50,7 +63,7 @@ li {
 }
 
 .header_undername {
-    color: #ce133f;
+    color: #BB2649;
 }
 
 .header-name>h1 {
@@ -61,7 +74,7 @@ li {
 
 .header_undername>h1 {
     font-size: 110px;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 .request-btn {
@@ -80,7 +93,7 @@ li {
 .about_us {
     margin-top: 100px;
     color: #FAFAFA;
-    border: 3px solid #ce133f;
+    border: 3px solid #BB2649;
     padding: 50px;
     border-radius: 20px;
     font-size: 22px;
@@ -93,6 +106,11 @@ li {
     font-weight: 400;
 }
 
+.special_text {
+    color: #BB2649;
+    font-weight: 700;
+}
+
 .order_point {
     text-transform: uppercase;
     font-size: 35px;
@@ -100,12 +118,12 @@ li {
 }
 
 .red_point {
-    border: 10px solid #ce133f;;
+    border: 10px solid #BB2649;;
     border-radius: 50%;
     padding-left: 30px;
     padding-bottom: 20px;
     margin-top: -10px;
-    background: #ce133f;
+    background: #BB2649;
 }
 
 .card_service {
@@ -145,14 +163,14 @@ li {
 }
 
 .red-letter{
-    color: #ce133f!important;
+    color: #BB2649!important;
     font-size: 200px;
     font-weight: 400;
 }
 
 .order-btn {
     text-transform: uppercase;
-    border: 1px solid #ce133f;
+    border: 1px solid #BB2649;
     border-radius: 20px;
     padding: 10px 15px;
     text-align: center;
@@ -181,6 +199,14 @@ li {
     color: #FAFAFA;
     font-size: 22px;
     font-weight: 100;
+}
+
+.form-input {
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    color: inherit;
+    outline: none;
 }
 
 .footer {
